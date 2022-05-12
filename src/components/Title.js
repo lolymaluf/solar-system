@@ -9,6 +9,7 @@ class Title extends React.Component {
 }
 
 /* Shape para confirmar se é string */
+/* https://pt-br.reactjs.org/docs/typechecking-with-proptypes.html */
 
 Title.propTypes = {
   headline: PropTypes.string.isRequired,
